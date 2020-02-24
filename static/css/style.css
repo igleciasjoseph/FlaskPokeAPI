@@ -1,0 +1,38 @@
+html body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #333a40;
+  height: 800px;
+}
+
+.card img {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #92d1b3;
+}
+div.card-top {
+  background-color: #92d1b3;
+}
+
+.card *,
+div.card-body {
+  background-color: #92d1b3;
+}
+
+@media all and (max-width: 480px) {
+  .card img {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #92d1b3;
+  }
+  div.card-top {
+    background-color: #92d1b3;
+  }
+
+  .card *,
+  div.card-body {
+    background-color: #92d1b3;
+  }
+}
